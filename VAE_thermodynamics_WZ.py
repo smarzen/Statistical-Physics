@@ -32,9 +32,9 @@ path = 'with_distance_matrix/sim_4_10_4_40_expanded'
 #path = 'with_distance_matrix/sim_4_10_5_16_expanded'
 
 stage = 'end'
-config = np.asarray(np.loadtxt('data/256 spins/' + path + '/config_out_'+stage+'_n_' + str(N) + '_s_256.txt'))
-stat = np.asarray(np.loadtxt('data/256 spins/' + path + '/stat_out_'+stage+'_n_' + str(N) + '_s_256.txt'))
-field = np.asarray(np.loadtxt('data/256 spins/' + path + '/field_out_'+stage+'_n_' + str(N) + '_s_256.txt'))
+config = np.asarray(np.loadtxt('data/256_spins/' + path + '/config_out_'+stage+'_n_' + str(N) + '_s_256.txt'))
+stat = np.asarray(np.loadtxt('data/256_spins/' + path + '/stat_out_'+stage+'_n_' + str(N) + '_s_256.txt'))
+field = np.asarray(np.loadtxt('data/256_spins/' + path + '/field_out_'+stage+'_n_' + str(N) + '_s_256.txt'))
 
 #shift -1,1 spins to 0,1 spins
 config = (config+1)/2
