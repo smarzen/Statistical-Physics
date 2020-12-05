@@ -30,7 +30,7 @@ t0 = time.time()
 #256 spins
 
 #same initial condition_half strength
-path = 'traj_1-2_fixed_IC_with_history/t_' + sys.argv[1]
+path = 'fix_diss_drives_from_subset_field_fixed_IC/t_' + sys.argv[1]
 
 config = np.asarray(np.loadtxt(dr + 'data/256_spins/' + path + '/config.txt'))
 stat = np.asarray(np.loadtxt(dr + 'data/256_spins/' + path + '/stat.txt'))
